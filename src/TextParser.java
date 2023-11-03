@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class TextParser {
     public static void main(String[] args) {
 
-        String inputText = "Произвольный текст с номером документа 1423-1512-51, 1423-1512-52 и еще одним номером докумета емейлом teachmeskills@gmail.com и номером телефона +(48)123456789.";
+        String inputText = "Произвольный текст с номером документа 1423-1512-51, емейлом teachmeskills@gmail.com и номером телефона +(29)123456789.";
 
         String email = findEmail(inputText);
         String documentNumber = findDocumentNumber(inputText);
